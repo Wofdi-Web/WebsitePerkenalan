@@ -376,8 +376,13 @@ ul.secondary-nav li a {
     position: absolute;
     right: 0;
     width: 300px;
+    height: 350px;
     bottom: -5em;
     border-radius: 1em 0px 0px 1em;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
   }
   section.galery ul {
     display: flex;

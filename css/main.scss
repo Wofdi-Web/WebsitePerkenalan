@@ -479,8 +479,11 @@ ul.secondary-nav {
             position: absolute;
             right: 0;
             width: 300px;
+            height: 350px;
             bottom: -5em;
             border-radius: 1em 0px 0px 1em;
+            object-fit: cover;
+            object-position: center;
         }
     }
 
